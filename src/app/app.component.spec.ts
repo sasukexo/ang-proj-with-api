@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'full-ang-proj'`, () => {
+  it(`should have as title 'full-angular-app-with-api-call'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('full-ang-proj');
+    expect(app.title).toEqual('full-angular-app-with-api-call');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, full-ang-proj');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, full-angular-app-with-api-call');
   });
 });
