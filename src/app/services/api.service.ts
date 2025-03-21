@@ -12,5 +12,25 @@ export class ApiService {
   getContacts():Observable<any>{
     return this.http.get('http://localhost:4500/contacts');
   }
+  
+  getServices():Observable<any>{
+    return this.http.get('http://localhost:4500/services');
+  }
+
+  getDetails(id:string):Observable<any>{
+    return this.http.get(`http://localhost:4500/details?id=${id}`);
+  }
+
+  addEnquiry(data:any):Observable<any>{
+    return this.http.post('http://localhost:4500/enquiries',data);
+  }
+
+  getProjects(): Observable<any[]> {
+    return this.http.get<any[]>('http://localhost:4500/projects');
+  }
+
+  getEnquiries(): Observable<any[]> {
+    return this.http.get<any[]>('http://localhost:4500/enquiries');
+  }
 
 }
