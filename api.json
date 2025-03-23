@@ -260,13 +260,7 @@
       "serviceType": "Branding and Communication",
       "message": "Looking for a branding campaign."
     },
-    {
-      "id": "7588",
-      "name": "Quinn",
-      "email": "quinn@example.com",
-      "serviceType": "Inbound & Content Marketing",
-      "message": "Need content creation services."
-    },
+     
     {
       "id": "7589",
       "name": "Rose",
