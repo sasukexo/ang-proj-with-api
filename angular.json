@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-app-with-api-call": {
+    "full-angular-app-with-api-call": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -22,8 +22,8 @@
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
-            "options": {
-            "outputPath": "dist/angular-app-with-api-call",
+          "options": {
+            "outputPath": "dist/full-angular-app-with-api-call",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -32,11 +32,17 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/ngx-extended-pdf-viewer/assets/",
+                "output": "/assets/"
+              }
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.min.js"	
@@ -70,10 +76,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-app-with-api-call:build:production"
+              "buildTarget": "full-angular-app-with-api-call:build:production"
             },
             "development": {
-              "buildTarget": "angular-app-with-api-call:build:development"
+              "buildTarget": "full-angular-app-with-api-call:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +87,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "angular-app-with-api-call:build"
+            "buildTarget": "full-angular-app-with-api-call:build"
           }
         },
         "test": {
@@ -94,14 +100,20 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "node_modules/ngx-extended-pdf-viewer/assets/",
+                "output": "/assets/"
+              }
             ],
             "styles": [
               "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"	
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"		
             ]
           }
         }

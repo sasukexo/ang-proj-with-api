@@ -128,120 +128,231 @@
   ],
   "enquiries": [
     {
-      "id": "b1f3",
-      "name": "Ron",
-      "email": "flickron303@gmail.com",
-      "serviceType": "Market Analysis",
-      "message": "Do some MA for me."
+      "id": "7569",
+      "name": "Kiran",
+      "email": "kiran@gmail.com",
+      "serviceType": "Branding and Communication",
+      "message": "We need a branding Campaign to be run by you. Let us know the cost"
     },
     {
-      "id": "08eb",
-      "name": "Shrek",
-      "email": "shreak505@gmail.com",
+      "id": "7570",
+      "name": "John",
+      "email": "john@example.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "Looking for content marketing services."
+    },
+    {
+      "id": "7571",
+      "name": "Jane",
+      "email": "jane@example.com",
+      "serviceType": "Film & Webinar",
+      "message": "Need help with a corporate film."
+    },
+    {
+      "id": "7572",
+      "name": "Alice",
+      "email": "alice@example.com",
       "serviceType": "Digital Marketing",
-      "message": "I wolud like you to do DM for my new product."
+      "message": "Interested in digital marketing services."
+    },
+    {
+      "id": "7573",
+      "name": "Bob",
+      "email": "bob@example.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "Need a new ecommerce website."
+    },
+    {
+      "id": "7574",
+      "name": "Charlie",
+      "email": "charlie@example.com",
+      "serviceType": "Market Analysis",
+      "message": "Require market analysis for our new product."
+    },
+    {
+      "id": "7575",
+      "name": "David",
+      "email": "david@example.com",
+      "serviceType": "Branding and Communication",
+      "message": "Looking for branding services."
+    },
+    {
+      "id": "7576",
+      "name": "Eve",
+      "email": "eve@example.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "Need content marketing strategy."
+    },
+    {
+      "id": "7577",
+      "name": "Frank",
+      "email": "frank@example.com",
+      "serviceType": "Film & Webinar",
+      "message": "Interested in creating a webinar."
+    },
+    {
+      "id": "7578",
+      "name": "Grace",
+      "email": "grace@example.com",
+      "serviceType": "Digital Marketing",
+      "message": "Looking for SEO services."
+    },
+    {
+      "id": "7579",
+      "name": "Hank",
+      "email": "hank@example.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "Need a website redesign."
+    },
+    {
+      "id": "7580",
+      "name": "Ivy",
+      "email": "ivy@example.com",
+      "serviceType": "Market Analysis",
+      "message": "Require competitor analysis."
+    },
+    {
+      "id": "7581",
+      "name": "Jack",
+      "email": "jack@example.com",
+      "serviceType": "Branding and Communication",
+      "message": "Looking for a new logo design."
+    },
+    {
+      "id": "7582",
+      "name": "Karen",
+      "email": "karen@example.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "Need help with inbound marketing."
+    },
+    {
+      "id": "7583",
+      "name": "Leo",
+      "email": "leo@example.com",
+      "serviceType": "Film & Webinar",
+      "message": "Interested in creating a promotional video."
+    },
+    {
+      "id": "7584",
+      "name": "Mia",
+      "email": "mia@example.com",
+      "serviceType": "Digital Marketing",
+      "message": "Looking for social media marketing."
+    },
+    {
+      "id": "7585",
+      "name": "Nina",
+      "email": "nina@example.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "Need an ecommerce platform."
+    },
+    {
+      "id": "7586",
+      "name": "Oscar",
+      "email": "oscar@example.com",
+      "serviceType": "Market Analysis",
+      "message": "Require market research services."
+    },
+    {
+      "id": "7587",
+      "name": "Paul",
+      "email": "paul@example.com",
+      "serviceType": "Branding and Communication",
+      "message": "Looking for a branding campaign."
+    },
+    {
+      "id": "7588",
+      "name": "Quinn",
+      "email": "quinn@example.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "Need content creation services."
+    },
+    {
+      "id": "7589",
+      "name": "Rose",
+      "email": "rose@example.com",
+      "serviceType": "Film & Webinar",
+      "message": "Interested in hosting a webinar."
+    },
+    {
+      "id": "7590",
+      "name": "Sam",
+      "email": "sam@example.com",
+      "serviceType": "Digital Marketing",
+      "message": "Looking for PPC services."
+    },
+    {
+      "id": "7591",
+      "name": "Tina",
+      "email": "tina@example.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "Need a new website design."
+    },
+    {
+      "id": "7592",
+      "name": "Uma",
+      "email": "uma@example.com",
+      "serviceType": "Market Analysis",
+      "message": "Require customer analysis."
+    },
+    {
+      "id": "7593",
+      "name": "Vince",
+      "email": "vince@example.com",
+      "serviceType": "Branding and Communication",
+      "message": "Looking for communication strategy."
+    },
+    {
+      "id": "7594",
+      "name": "Wendy",
+      "email": "wendy@example.com",
+      "serviceType": "Inbound & Content Marketing",
+      "message": "Need help with content marketing."
+    },
+    {
+      "id": "7595",
+      "name": "Xander",
+      "email": "xander@example.com",
+      "serviceType": "Film & Webinar",
+      "message": "Interested in creating a corporate film."
+    },
+    {
+      "id": "7596",
+      "name": "Yara",
+      "email": "yara@example.com",
+      "serviceType": "Digital Marketing",
+      "message": "Looking for digital marketing strategy."
+    },
+    {
+      "id": "7597",
+      "name": "Zane",
+      "email": "zane@example.com",
+      "serviceType": "ECommerce & Websites",
+      "message": "Need help with ecommerce setup."
+    },
+    {
+      "id": "7598",
+      "name": "Amy",
+      "email": "amy@example.com",
+      "serviceType": "Market Analysis",
+      "message": "Require market insights."
+    },
+    {
+      "id": "7599",
+      "name": "Brian",
+      "email": "brian@example.com",
+      "serviceType": "Branding and Communication",
+      "message": "Looking for branding consultation."
     }
   ],
-  "projects": [
+  "enquiryresponses": [
     {
-      "id": "1",
-      "name": "Project 1",
-      "description": "Project 1 description",
-      "status": "active",
-      "startDate": "2021-01-01",
-      "endDate": "2021-01-31",
-      "teamSize": 10,
-      "image": "films.jpg"
-    },
-    {
-      "id": "2",
-      "name": "Project 2",
-      "description": "Project 2 description",
-      "status": "inactive",
-      "startDate": "2021-02-01",
-      "endDate": "2021-02-28",
-      "teamSize": 8,
-      "image": "ecommerce.jpg"
-    },
-    {
-      "id": "3",
-      "name": "Project 3",
-      "description": "Project 3 description",
-      "status": "active",
-      "startDate": "2021-03-01",
-      "endDate": "2021-03-31",
-      "teamSize": 12,
-      "image": "films.jpg"
-    },
-    {
-      "id": "4",
-      "name": "Project 4",
-      "description": "Project 4 description",
-      "status": "active",
-      "startDate": "2021-04-01",
-      "endDate": "2021-04-30",
-      "teamSize": 7,
-      "image": "ecommerce.jpg"
-    },
-    {
-      "id": "5",
-      "name": "Project 5",
-      "description": "Project 5 description",
-      "status": "inactive",
-      "startDate": "2021-05-01",
-      "endDate": "2021-05-31",
-      "teamSize": 15,
-      "image": "films.jpg"
-    },
-    {
-      "id": "6",
-      "name": "Project 6",
-      "description": "Project 6 description",
-      "status": "active",
-      "startDate": "2021-06-01",
-      "endDate": "2021-06-30",
-      "teamSize": 9,
-      "image": "ecommerce.jpg"
-    },
-    {
-      "id": "7",
-      "name": "Project 7",
-      "description": "Project 7 description",
-      "status": "inactive",
-      "startDate": "2021-07-01",
-      "endDate": "2021-07-31",
-      "teamSize": 6,
-      "image": "films.jpg"
-    },
-    {
-      "id": "8",
-      "name": "Project 8",
-      "description": "Project 8 description",
-      "status": "active",
-      "startDate": "2021-08-01",
-      "endDate": "2021-08-31",
-      "teamSize": 14,
-      "image": "ecommerce.jpg"
-    },
-    {
-      "id": "9",
-      "name": "Project 9",
-      "description": "Project 9 description",
-      "status": "inactive",
-      "startDate": "2021-09-01",
-      "endDate": "2021-09-30",
-      "teamSize": 11,
-      "image": "films.jpg"
-    },
-    {
-      "id": "10",
-      "name": "Project 10",
-      "description": "Project 10 description",
-      "status": "active",
-      "startDate": "2021-10-01",
-      "endDate": "2021-10-31",
-      "teamSize": 5,
-      "image": "ecommerce.jpg"
+      "subject": "Hello",
+      "message": "akjshdkjasdkjaj",
+      "estimatedPrice": 121212,
+      "duration": "232",
+      "messageId": "13",
+      "id": 1
     }
   ]
 }

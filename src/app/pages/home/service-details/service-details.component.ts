@@ -22,6 +22,10 @@ export class ServiceDetailsComponent {
       this.title = navigation.extras.state['title'];
       console.log('Title:', this.title);
     }
+  
+
+  
+    
   }
 
   ngOnInit() {

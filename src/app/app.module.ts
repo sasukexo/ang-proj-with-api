@@ -8,13 +8,18 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
-import { ContactItemComponent } from './pages/contact/contact-item/contact-item.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ContactItemComponent } from './pages/contact/contact-item/contact-item.component';
 import { ServiceItemComponent } from './pages/home/service-item/service-item.component';
 import { ServiceDetailsComponent } from './pages/home/service-details/service-details.component';
 import { EnquiryFormComponent } from './pages/home/enquiry-form/enquiry-form.component';
-import { FormsModule } from '@angular/forms';
-import { EnquiryComponent } from './pages/enquiry/enquiry.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { EnquiriesComponent } from './pages/enquiries/enquiries.component';
+import { LoginComponent } from './common/login/login.component';
+import { EnquiryResponseComponent } from './pages/enquiries/enquiry-response/enquiry-response.component';
+import { FilterservicePipe } from './pipes/filterservice.pipe';
+import { HighlightPipe } from './pipes/highlight.pipe';
+
 
 @NgModule({
   declarations: [
@@ -28,13 +33,19 @@ import { EnquiryComponent } from './pages/enquiry/enquiry.component';
     ServiceItemComponent,
     ServiceDetailsComponent,
     EnquiryFormComponent,
-    EnquiryComponent
+    EnquiriesComponent,
+    LoginComponent,
+    EnquiryResponseComponent,
+    FilterservicePipe,
+    HighlightPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -20,17 +20,19 @@ export class ApiService {
   getDetails(id:string):Observable<any>{
     return this.http.get(`http://localhost:4500/details?id=${id}`);
   }
-
+  
   addEnquiry(data:any):Observable<any>{
     return this.http.post('http://localhost:4500/enquiries',data);
   }
 
+  getEnquiries():Observable<any>{
+    return this.http.get('http://localhost:4500/enquiries');
+  }
   getProjects(): Observable<any[]> {
     return this.http.get<any[]>('http://localhost:4500/projects');
   }
-
-  getEnquiries(): Observable<any[]> {
-    return this.http.get<any[]>('http://localhost:4500/enquiries');
+  addEnquiryReply(data:any):Observable<any>{
+    return this.http.post('http://localhost:4500/enquiryresponses', data);
   }
 
 }

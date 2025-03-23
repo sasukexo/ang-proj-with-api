@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular-app-with-api-call';
+  title = 'full-angular-app-with-api-call';
 }
